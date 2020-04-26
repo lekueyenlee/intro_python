@@ -1,4 +1,5 @@
 ## This is a custom email message class
+import sys
 
 #definition of a custom_email class
 class custom_email:
@@ -24,3 +25,5 @@ print("\r")
 
 email_two = custom_email("Sammy@gmail.com", "Tommy@gmail.com", "Custom email - #2", "Hello, this is an interesting python coding challenge")
 print(email_two.get_email_information())
+
+sys.exit()
