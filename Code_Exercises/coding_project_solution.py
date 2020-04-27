@@ -35,5 +35,5 @@ for item in numbers_selected:
     numbers_string_output = numbers_string_output + str(item) + comma_string_connector
 
 print("!----     Potential Mega Millions Winning Lottery     ----!")
-print(five_num_label + str(numbers_string_output.rsplit(comma_string_connector)))
+print(five_num_label + numbers_string_output.rstrip(comma_string_connector))
 print(one_num_label + str(num_selected))
